@@ -15,7 +15,7 @@ int main(){
 			printf("Wynik: %f", -pow(-(sin(2*x) + x*x), (float)1/3));
 		}
 		else {
-			printf("Wynik %f", pow(sin(2*x) + x*x), float(1/3));	
+			printf("Wynik %f", pow(sin(2*x) + x*x), (float)1/3);	
 		}
 	}
 	else {
