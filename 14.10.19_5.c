@@ -18,7 +18,7 @@ int main(){
 			printf("Brak rozwiazan");
 		}
 		else {
-			printf("Uklad nioznaczony lub brak rozwiazan");
+			printf("Uklad nieoznaczony lub brak rozwiazan");
 		}
 	} else {
 		printf("X = %f, Y = %f", wx/w, wy/w);
