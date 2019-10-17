@@ -8,5 +8,10 @@ int main(){
 	scanf("%f", &x);
 	float y = (float)1/3 + sin(x/2);
 	y *= pow(x, 3) + 3;
-	printf("Wynik: %f", -pow(-y, 0.2));
+	if(y < 0){
+		printf("Wynik: %f", -pow(-y, 0.2));
+	}
+	else {
+		printf("Wynik: %f", pow(y, 0.2));
+	}
 }
