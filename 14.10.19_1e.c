@@ -8,9 +8,9 @@ int main(){
 	scanf("%f", &x);
 	
 	float z = sqrt(x + 2);
-	float temp;
-	if(temp = 3*x*x - 7*x + 2){
-		z /= temp;
+	float y = 3*x*x - 7*x + 2;
+	if(y != 0){
+		z /= y;
 	}
 	else{
 		return -1;
