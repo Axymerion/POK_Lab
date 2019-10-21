@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 float ciag(int i){
+	
 	if(i == -2){
 		return 2;
 	}
@@ -20,7 +21,9 @@ float ciag(int i){
 }
 
 int main(){
+	
 	int i, n;
+	
 	printf("Podaj N: ");
 	scanf("%d", &n);
 	
