@@ -12,7 +12,7 @@ int main(){
 		return -1;
 	}
 	
-	min = 50;
+	min = 64;
 	
 	for(i = 2; i <= np; i++){
 		y = -pow(i, 2) + 15*i +50;
