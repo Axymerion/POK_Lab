@@ -2,12 +2,14 @@
 #include <stdlib.h>
 #include <math.h>
 
-double dziel(int x){
+double dziel(int x)
+{
 	if(x == 1) return 1;
 	return dziel(x-1)/x;
 }
 
-int main(){
+int main()
+{
 	int n, p = 1;
 	double q, eps, y;
 	

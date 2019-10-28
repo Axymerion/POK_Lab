@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main(){
+int main()
+{
 	float x, suma = 0;
 	int n;
 	

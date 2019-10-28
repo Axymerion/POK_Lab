@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main(){
+int main()
+{
 	float a, b, dX, suma = 0, ilosc = 0, max, eps;
 	printf("Podaj a, b i dX: ");
 	scanf("%f %f %f", &a, &b, &dX);

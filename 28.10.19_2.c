@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main(){
+int main()
+{
 	float y[2], eps, l;
 	
 	printf("Podaj L i eps: ");
