@@ -21,7 +21,7 @@ int main()
 		{
 			tab[i][j] = tab[i - 1][j - 1];
 		}
-		tab[i][0] = tab[i][m];
+		tab[i][0] = tab[i - 1][m - 1];
 	}
 	
 	for(i = 0; i < n; i++)
