@@ -17,10 +17,11 @@ int main()
 	
 	for(i = 1; i < n; i++)
 	{
-		for(j = m; j >= 0; j--)
+		for(j = 1; j < m; j++)
 		{
-			
+			tab[i][j] = tab[i - 1][j - 1];
 		}
+		tab[i][0] = tab[i][m];
 	}
 	
 	for(i = 0; i < n; i++)
