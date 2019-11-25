@@ -6,6 +6,7 @@
 int main()
 {
 	system("rm wynik_hex.txt");
+	
 	FILE *f, *w;
 	f = fopen("dane_hex.txt", "r");
 	w = fopen("wynik_hex.txt", "w");
@@ -25,7 +26,7 @@ int main()
 			}
 			j++;
 		}
-		fprintf(w, "%d\n", y);
+		fprintf(w, "%s = %d\n", hex, y);
 	}
 	
 	fclose(f);

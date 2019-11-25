@@ -20,7 +20,7 @@ int main()
 			y += pow(2, j) * (bin[i] - '0');
 			j++;
 		}
-		fprintf(w, "%d\n", y);
+		fprintf(w, "%s = %d\n", bin, y);
 	}
 	
 	fclose(f);
