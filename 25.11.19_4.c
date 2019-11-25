@@ -4,6 +4,9 @@
 
 int main()
 {
+	system("rm dane1.txt");
+	system("rm dane2.txt");
+	
 	FILE *f, *d1, *d2;
 	f = fopen("dane.txt", "r");
 	d1 = fopen("dane1.txt", "w");

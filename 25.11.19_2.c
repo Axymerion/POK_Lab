@@ -4,6 +4,7 @@
 
 int main()
 {
+	system("rm wynik.txt");
 	FILE *f;
 	f = fopen("wynik.txt", "w");
 	float xp, xk, delta, eps;

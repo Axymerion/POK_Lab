@@ -5,6 +5,7 @@
 
 int main()
 {
+	system("rm dane.txt");
 	srand(time(0));
 	FILE *f;
 	f = fopen("dane.txt", "w");

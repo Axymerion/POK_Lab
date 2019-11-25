@@ -5,6 +5,8 @@
 
 int main()
 {
+	system("rm wynik_bin.txt");
+	
 	FILE *f, *w;
 	f = fopen("dane_bin.txt", "r");
 	w = fopen("wynik_bin.txt", "w");
