@@ -7,10 +7,11 @@ int main()
 {
 	srand(time(0));
 	
-	int in = 0, out = 0, i;
+	int in = 0, all = 0, i;
+	printf("Ilosc prob: ");
 	scanf("%d", &i);
 	
-	for(i; i >= 0; i--)
+	for(i; i > 0; i--)
 	{
 		float x = rand() / (RAND_MAX/2.0) - 1;
 		float y = rand() / (RAND_MAX/2.0) - 1;
@@ -19,8 +20,8 @@ int main()
 		{
 			in++;
 		}
-		out++;
+		all++;
 	}
 	
-	printf("in: %d, out: %d, pi: %f", in, out, ((float)in/out)*4); //Dobre przyblizenie przy ponad 10.000.000 probek
+	printf("Jednostki wewnatrz okregu: %d\nLacznie jednostek: %d\nPrzyblizona wartosc PI: %f", in, all, ((float)in/all)*4); //Dobre przyblizenie przy ponad 10.000.000 probek
 }
